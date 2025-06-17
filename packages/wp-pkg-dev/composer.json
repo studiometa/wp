@@ -13,6 +13,16 @@
     "wp-coding-standards/wpcs": "^3.1.0",
     "wpackagist-plugin/query-monitor": "^3.17.2"
   },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wordpress-plugins.studiometa.dev"
+    },
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    }
+  ],
   "config": {
     "preferred-install": "dist",
     "sort-packages": true,
