@@ -16,7 +16,7 @@ main() {
 	for pkg in $packages
 	do
 		echo "pkg: $pkg"
-		tar --create --xz --verbose --exclude-vcs-ignores --exclude="vendor" --exclude="web" --exclude="composer.lock" --file "$pkg.tar.xz" $pkg
+		tar --create --xz --verbose --exclude="vendor" --exclude="web" --exclude="composer.lock" --file "$pkg.tar.xz" $pkg
 	done
 }
 
